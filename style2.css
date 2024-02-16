@@ -1,0 +1,103 @@
+.body{
+	background:url(BG_IMG2.jpg ) center center no-repeat ;
+	background-size:cover;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 3px;
+  overflow:hidden;
+  background-color: #38444d;
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  font-size:20px;
+}
+
+li a:not(.contact) {
+  float:left ;
+}
+
+li a:not(.home){
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+li a:hover:not(.home) {
+  background-color: #a6aaab;
+}
+li a.home{
+	font-size:20px;
+	display: block;
+	color:white;
+	text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+	background-color:#49979e;
+	width: 10%;
+}
+li a.contact{
+	float:right ;
+}
+.header{
+	color:white;
+	font-size:40px; 
+	margin-left:5%;
+	margin-top:5%;
+	margin-bottom:1.5%;
+	font-family:Copperplate;
+	font-style: oblique;
+	font-weight: 900;
+	font-variant: small-caps;
+	text-shadow: 10px 2px 5px #75b5bf;
+}
+div {
+	opacity:0.9;
+	background-color:white;
+	margin-right:50%;
+	margin-top:3%;
+	margin-left:3%;
+	padding:10px;
+	border-radius:20px;
+}
+input[name=name],select{
+	width: 40%;
+	padding: 10px 20px;
+	margin: 8px ;
+	display: inline-block;
+	border: 1px dashed #417b8a;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input [type=date], select{
+	padding: 12px 20px;
+	margin: 8px ;
+	display: inline-block;
+	border: 1px dashed #417b8a;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+.email{
+	width:79%;
+	padding: 10px 20px;
+	margin: 8px ;
+	display: inline-block;
+	border: 1px dashed #417b8a;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type:passowrd]{
+	width: 40%;
+	padding: 10px 20px;
+	margin: 8px ;
+	display: inline-block;
+	border: 1px dotted #417b8a;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+.submit{
+	float:right;
+}

@@ -1,0 +1,54 @@
+#body{
+	background:url(BG_IMG2.jpg ) center center no-repeat ;
+	background-size:cover;
+	
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 3px;
+  overflow:hidden;
+  background-color: #38444d;
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  font-size:20px;
+}
+
+li a:not(.contact) {
+  float:left ;
+}
+
+li a:not(.home){
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+li a:hover:not(.home) {
+  background-color: #a6aaab;
+}
+li a.home{
+	font-size:20px;
+	display: block;
+	color:white;
+	text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+	background-color:#49979e;
+	width: 10%;
+}
+li a.contact{
+	float:right ;
+}
+div {
+	opacity:0.7;
+	background-color:white;
+	margin-right:50%;
+	margin-top:20%;
+	margin-left:3%;
+	padding:10px;
+	border-radius:20px;
+}
